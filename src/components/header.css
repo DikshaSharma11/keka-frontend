@@ -1,0 +1,75 @@
+.header {
+    /* height: 100px; */
+    margin-top: 50px;
+    background-color: rgb(208, 180, 180);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    background-color: rgb(208, 180, 180);
+    /* Add or change the color here */
+    padding: 20px;
+    /* Adjust padding as needed */
+}
+
+.keka-image {
+    margin-right: 20px;
+    /* height: 50px; */
+    width: 50px;
+    background-color: transparent;
+    /* Add this line */
+}
+
+.keka-image img {
+    width: 100%;
+    background-color: transparent;
+    object-fit: cover;
+}
+
+.search-container {
+    padding: 6px 8px;
+    width: 420px;
+    border-radius: 50px;
+    border: 2px solid grey;
+    margin-left: 50px;
+    display: flex;
+    background-color: grey;
+    /* Add or change the color here */
+}
+
+.searchInput {
+    background-color: transparent;
+    border: none; 
+    outline: none; 
+    padding: 0; 
+    flex: 1; }
+
+
+.search-img {
+    /* margin-right: 10px; */
+    padding: 0px 10px;
+
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-left: 820px;
+}
+
+.down-img {
+    width: 50px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
